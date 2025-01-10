@@ -185,10 +185,33 @@ nav {
 
 
 /* Banner 4 remeaning */
-.banner5{
+.banner4{
+    background: #ffffff;
+    
+    padding: 25px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    border-radius: 10px;
+}
+
+.banner4 .des{
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+}
+
+.banner4 .des .p1{
+    font-size: 15px;
+    padding-top:25px;
+    text-align: justify;
+}
+.banner4 h2{
+    padding-top: 20px;
+    font-size:20px;
+    font-weight: 550;
+}
+.banner4 .des .p2{
+    padding-top:15px;
+    text-align: justify;
 }
 
 
@@ -198,9 +221,12 @@ nav {
 
 
 
-
-
 /* Banner 5 */
+.banner5{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 .table-container {
     padding: 35px;
     background-color: #ffffff;
