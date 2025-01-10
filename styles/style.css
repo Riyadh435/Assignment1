@@ -1,17 +1,248 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-*{
-    padding: 0;
-    margin: 0;
-    font-family: "Fira Sans", serif;
-}
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 20px 200px;
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Fira Sans", serif;
 }
 
-.nav-title{
-    font-weight:bold;
-    font-size: 30px;
+body {
+  background-color: #f1f1f3;
 }
+
+/* Normal Margin*/
+
+.nm {
+  margin: 70px 150px;
+}
+
+/* Normal Title */
+.nm-t {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 150px;
+}
+
+.nav-title {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/* universak button for my assignment */
+.btn-1 {
+  background-color: transparent;
+  font-size: 20px;
+  color: #006a50;
+  padding: 10px 20px;
+  border-color: #006a50;
+  border-radius: 5px;
+}
+.btn-2 {
+  width: 200px;
+  background-color: #006a50;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Banner 1 */
+
+.banner1 {
+  background-color: #c6e4d6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 60px;
+  border-radius: 20px;
+}
+
+.banner1 .details {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.banner1 .image {
+  margin-right: 60px;
+}
+
+.banner1 .details p {
+  color: #f5f5f5;
+}
+.banner1 .details h1 {
+  font-size: 45px;
+}
+
+/* Bannner 2 */
+
+.banner2 .cards {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.banner2 .cards .card {
+  height: 220px;
+  width: 300px;
+  background: #ffffff;
+  border-color: #d5d6d8;
+  padding: 15px;
+  border-radius: 10px;
+}
+.banner2 .cards .card h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  padding: 10px;
+}
+.banner2 .cards .card p {
+  font-size: 16px;
+  padding: 10px;
+}
+.banner2 .cards .card img {
+  padding: 10px;
+}
+/* Banner 3 */
+
+
+.banner3 p{
+    padding: 15px 0;
+}
+
+.banner3 .cards {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+.banner3 .cards .card1,
+.card2,
+.card3 {
+  height: 280px;
+  width: 380px;
+  padding: 15px;
+  border-radius: 10px;
+}
+.banner3 .cards .card1 {
+  background: #81B4FC;
+}
+
+.banner3 .cards .card2 {
+  background: #c6e4d6;
+}
+
+.banner3 .cards .card3 {
+  background: #f7ebcf;
+}
+.banner3 .cards .card1 h2,
+.card2 h2,
+.card3 h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  padding: 10px;
+}
+.banner3 .cards .card1 p,
+.card2 p,
+.card3 p {
+  font-size: 16px;
+  padding: 15px;
+}
+.banner3 .cards .card1 img,
+.card2 img,
+.card3 img {
+  padding: 10px;
+}
+
+.banner3 .cards .card1 button,
+.card2 button,
+.card3 button {
+  margin-left: 10px;
+  font-size: 16px;
+  color: white;
+  font-weight: 400;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+}
+
+.card1 button{
+    background-color: #5490F5;
+}
+.card2 button{
+    background-color: #09A15C;
+}
+.card3 button{
+    background-color: #FFC239;
+}
+
+
+
+/* Banner 4 remeaning */
+.banner5{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Banner 5 */
+.table-container {
+    padding: 35px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  thead {
+    background-color: #c6e4d6;
+  }
+  th {
+    text-align: left;
+    padding: 15px;
+    font-size: 16px;
+    color: black;
+    border: 1px solid #e0e0e0;
+  }
+  tbody tr {
+    border-bottom: 1px solid #e0e0e0;
+  }
+  td {
+
+    text-align: left;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+    border: 1px solid #e0e0e0;
+  }
+
+  .lastd{
+    margin-left: 20px;
+  }
+  .btn-3 {
+    margin-right: 20px;
+    padding: 8px 12px;
+    font-size: 14px;
+    background-color: #d4f0e0;
+    border: 1px solid black;
+    border-radius: 4px;
+  }
