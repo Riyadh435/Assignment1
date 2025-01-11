@@ -303,6 +303,8 @@ td {
   margin-bottom: 20px;
 }
 .banner6 .cards .card img {
+  max-width: 500px;
+  max-height: 400px;
   border-radius: 20px;
 }
 .banner6 .cards .card .details p {
@@ -351,6 +353,17 @@ td {
 
 .banner7 .btn-cards .btn {
   background-color: #ffffff;
+  margin: 20px;
+  width: 200px;
+  height: 100px;
+  border-radius: 10px;
+  border: 1px solid #d5d6d8;
+  font-size: 32px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.banner7 .btn-cards .btn1 {
+  background-color: #C6E4D6;
   margin: 20px;
   width: 200px;
   height: 100px;
