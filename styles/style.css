@@ -21,7 +21,6 @@ body {
   font-size: 35px;
 }
 
-
 nav {
   display: flex;
   align-items: center;
@@ -77,9 +76,9 @@ nav {
   font-size: 45px;
 }
 
-.banner1 .details p{
-    font-size: 20px;
-    font-weight: 500;
+.banner1 .details p {
+  font-size: 20px;
+  font-weight: 500;
   color: rgba(14, 14, 14, 0.7);
 }
 
@@ -88,15 +87,16 @@ nav {
 .banner2 .cards {
   margin-top: 20px;
   display: flex;
-  gap: 10px;
+  gap: 15px;
+  justify-content: space-between;
 }
 
 .banner2 .cards .card {
   height: 220px;
   width: 300px;
   background: #ffffff;
-  border-color: #d5d6d8;
   padding: 15px;
+  border: 2px solid #d5d6d8;
   border-radius: 10px;
 }
 .banner2 .cards .card h2 {
@@ -124,13 +124,13 @@ nav {
 .banner3 .cards {
   margin-top: 20px;
   display: flex;
-  gap: 10px;
+  justify-content: space-between;
 }
 .banner3 .cards .card1,
 .card2,
 .card3 {
   height: 280px;
-  width: 380px;
+  width: 360px;
   padding: 15px;
   border-radius: 10px;
 }
@@ -158,7 +158,7 @@ nav {
 .card3 p {
   font-size: 16px;
   padding: 15px;
-  
+
   color: rgba(14, 14, 14, 0.7);
 }
 .banner3 .cards .card1 img,
@@ -196,7 +196,8 @@ nav {
   padding: 25px;
   display: flex;
   flex-direction: column;
-  border-radius: 10px;
+  border-radius: 13px;
+  border: 2px solid #d5d6d8;
 }
 
 .banner4 .des {
@@ -214,8 +215,8 @@ nav {
   font-size: 20px;
   font-weight: 550;
 }
-.banner4 .des .p2 {
-  padding-top: 15px;
+.banner4 .p2 {
+  padding-top: 10px;
   text-align: justify;
   font-size: 16px;
   color: rgba(14, 14, 14, 0.7);
@@ -279,8 +280,8 @@ td {
   gap: 20px;
 }
 
-.banner6 p{
-    font-size: 16px;
+.banner6 p {
+  font-size: 16px;
   color: rgba(14, 14, 14, 0.7);
 }
 
@@ -295,15 +296,14 @@ td {
 .banner6 .cards .card img {
   border-radius: 20px;
 }
-.banner6 .cards .card .details p{
-    text-align: justify;
-    padding-top:10px;
-    font-size: 16px;
-    color:rgba(14, 14, 14, 0.7);
-
+.banner6 .cards .card .details p {
+  text-align: justify;
+  padding-top: 10px;
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
 }
 .banner6 .cards .card .details button {
- margin-top: 20px;
+  margin-top: 20px;
   background-color: #006a50;
   font-size: 16px;
   color: white;
@@ -313,3 +313,133 @@ td {
   border-radius: 8px;
 }
 
+/* Banner 7 */
+.banner7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  margin: 70px 220px;
+}
+
+.banner7 .b7h {
+  text-align: center;
+}
+.banner7 .b7p {
+  text-align: center;
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+}
+
+.banner7 .btn-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner7 .btn-cards .btn {
+  background-color: #ffffff;
+  margin: 20px;
+  width: 200px;
+  height: 100px;
+  border-radius: 10px;
+  border: 1px solid #d5d6d8;
+  font-size: 32px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.banner7 .btn-cards .btn:hover{
+  background-color: #C6E4D6;
+}
+
+
+.banner7 input {
+  text-align: center;
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #d5d6d8;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.banner7 .donate-btn {
+
+  background-color: #006a50;
+  font-size: 16px;
+  color: white;
+  font-weight: 400;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+}
+
+
+/* Banner 8 */
+
+
+.banner8{
+  background-color: #C6E4D6;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding:60px 30px;
+}
+
+.banner8 p {
+  width:  500px;
+  text-align: center;
+  font-size: 15px;
+  color: rgba(14, 14, 14, 0.7);
+}
+
+
+.banner8 .input-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  width: 600px;
+  padding: 20px;
+ 
+}
+.banner8 .input-box input {
+  border-radius: 8px 0 0 8px;
+  width: 400px;
+  border: none;
+  padding: 15px;
+  outline: none;
+  
+}
+
+.banner8 .input-box button {
+  border-radius: 0 8px 8px 0;
+  border-color: transparent;
+  padding: 13px;
+  width: 120px;
+  color: white;
+  font-weight: bold;
+  background-color:  #006a50;
+}
+
+
+footer{
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  gap: 20px;
+}
+footer h1{
+  padding: 20px;
+}
+footer hr{
+  width: 70%;
+  color:rgba(14, 14, 14, 0.7);
+}
+footer .img-container img{
+  padding: 15px;
+}
