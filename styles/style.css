@@ -52,6 +52,10 @@ nav {
   border: none;
   border-radius: 5px;
 }
+.btn-2:hover{
+  background-color: #50C878;
+
+}
 
 /* Banner 1 */
 
@@ -179,6 +183,7 @@ nav {
   border-radius: 10px;
 }
 
+
 .card1 button {
   background-color: #5490f5;
 }
@@ -267,9 +272,13 @@ td {
   margin-right: 20px;
   padding: 8px 12px;
   font-size: 14px;
+  font-weight: bold;
   background-color: #d4f0e0;
   border: 1px solid black;
   border-radius: 4px;
+}
+.btn-3:hover{
+  background-color: #50C878;
 }
 
 /* banner 6 */
@@ -311,6 +320,10 @@ td {
   padding: 10px;
   border: none;
   border-radius: 8px;
+}
+.banner6 .cards .card .details button:hover {
+  background-color: #50C878;
+  
 }
 
 /* Banner 7 */
@@ -373,6 +386,9 @@ td {
   border: none;
   border-radius: 8px;
 }
+.banner7 .donate-btn:hover{
+  background-color: #50C878;
+}
 
 
 /* Banner 8 */
@@ -422,6 +438,9 @@ td {
   color: white;
   font-weight: bold;
   background-color:  #006a50;
+}
+.input-box button:hover{
+  background-color: #50C878;
 }
 
 
