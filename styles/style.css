@@ -475,3 +475,184 @@ footer hr{
 footer .img-container img{
   padding: 15px;
 }
+
+
+
+.hide{
+  display: none;
+}
+
+
+/* Responsive Design  */
+
+/* For small device */
+
+@media screen and (max-width:576px) {
+  .banner8,.banner7,.banner6,.banner5,.banner4,.banner3,.banner2,.banner1{
+    border-radius: 0px;
+    margin: 50px 0;
+  }
+  .banner8 h1,.banner7 .b7h,.banner6 h1,.banner5 h1,.banner3 h1,.banner2 h1{
+    font-size: 20px;
+    margin-left: 10px;
+  }
+
+  .banner8 .input-box{
+    width: 90%;
+  }
+  .banner8 p{
+    width: 90%;
+  }
+  .banner7 .btn-cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .banner7 .btn-cards .btn ,.banner7 .btn-cards .btn1 {
+    
+    margin: 10px;
+    width: 120px;
+    height: 70px;
+    font-size: 15px;
+  }
+  .banner7 .b7p{
+    width: 90%;
+    font-size: 14px;
+  }
+
+
+
+
+  .banner6 .cards .card{
+    flex-direction: column;
+    
+    border-radius: 5px;
+    gap: 10px;
+    margin-bottom: 10px;
+
+  }
+  .banner6 .cards .card img {
+    width: 90%;
+    height: 90%;
+  
+  }
+  .banner6 .cards .card .details p, h2 {
+    font-size: 11px;
+   
+  }
+  .banner6 .cards .card .details .al{
+    display: none;
+    width: 90%;
+    height: 90%;
+  }
+  .banner6 .cards .card .details button {
+    margin-top: 5px;
+    font-size: 10px;
+    padding: 9px;
+    font-weight: normal;
+    
+  }
+  .banner6 >p{
+    padding: 5px;
+    font-size: 14px;
+  }
+
+  .table-container{
+    border-radius: 0;
+    padding: 10px;
+  }
+  th {
+    text-align: center;
+    padding: 5px;
+    font-size: 10px;
+  }
+ 
+  td {
+    text-align: center;
+    padding: 5px;
+    font-weight: normal;
+    font-size: 9px;
+  }
+  .lastd {
+    margin-left: 5px;
+  }
+  .btn-3 {
+    margin-right: 5px;
+    padding: 1px;
+    font-size: 9px;
+    font-weight: normal;
+  }
+
+  .banner4 .des{
+    background-image: none;
+  }
+  .banner4 .des .p1 {
+    font-size: 16px;
+    padding-top: 10px;
+    
+  }
+  .banner4 .p2{
+    font-size: 12px;
+  }
+
+  .banner3 .cards{
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .banner3 .cards .card1,
+.card2,
+.card3 {
+  padding: 10px;
+  height: 80%;
+  width: 80%;
+
+  border-radius: 10px;
+}
+.banner3 .cards .card1 button,
+.card2 button,
+.card3 button {
+  margin-left: 10px;
+  font-size: 13px;
+  padding: 10px;
+ 
+}
+
+.banner3 >p{
+  padding: 10px;
+  font-size: 13px;
+  text-align: justify;
+}
+ 
+.banner2 .cards {
+  margin-top: 20px;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+
+.banner1 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px;
+}
+
+.banner1 .details {
+  align-items: center;
+  gap: 10px;
+}
+.banner1 .image {
+  display:none;
+}
+.banner1 .details h1 {
+  font-size: 20px;
+}
+
+.banner1 .details p {
+  font-size: 15px;
+  font-weight: 400;
+  
+}
+  
+}
